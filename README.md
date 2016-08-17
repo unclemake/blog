@@ -9,29 +9,29 @@
 * ECMAScript
   * es3
   * es5 -- 大量新函数。 getter/setter
-  * es2015(es6) -- 类,let,异步编程,module,set等
+  * es2015(es6) -- let,const,class,async,module,set等
 
 ## 编程思想
 * 编程范式
   * OOP -- 面向对象编程
   * FP -- 面向函数编程
-  * FRP -- 响应式编程
 * 架构模式
   * MVC -- 模型(model)－视图(view)－控制器(controller)
   * MVVM -- model-view-viewMode
   * flux -- action-dispatcher-store-view 数据流管理
   * 组件化开发 -- 页面功能组件为单位聚合前端资源
 * 其他
-  * 设计模式 -- 工厂,单例,适配器,组合,解释器等
+  * 设计模式 -- 工厂,单例,适配器,组合等
   * 设计法则 -- 单一职责,里氏替换原则,依赖倒置原则,接口隔离原则,迪米特法则,开闭原则,组合/聚合复用原则
   * 算法 -- 基本用不到。用到了也是一些具体的数据函数或者直接是个库无需具体理解。只有在写游戏和写框架的时候用到一点点。
   * 编程原理 -- 感觉对前端也用处不大
 
 ## 工程开发
 * 框架
-  * jquery -- 解决了兼容性,各种语法糖
+  * jquery -- 解决兼容性,有各种语法糖
   * react,vue,angularjs -- 解决复杂app的可维护性
   * lodash,underscore -- js工具库
+  * CSS Modules -- 模块化css解决方案
 * 构建工具
   * gulp -- 文件数据流解决方案
   * webpack -- app项目文件打包解决方案
@@ -41,9 +41,9 @@
   * typescript -- js的超集 增加类型检查和显性接口 大大增加了js语言的抽象能力
   * babel -- ES2015转换 支持低版本浏览器ES2015的运行
 * 编码规范
-  * js -- 
-  * css -- 
-  * html -- 
+  * js -- 多与三层分模块分函数
+  * css -- BEM 
+  * html -- 语义化
   * 备注 -- jsdoc
 * 版本管理
   * git -- 分布式版本控制系统 管理项目文件
