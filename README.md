@@ -19,7 +19,7 @@
 * 架构模式
   * MVC -- 模型(model)－视图(view)－控制器(controller)
   * MVVM -- model-view-viewMode
-  * Flux -- action-dispatcher-store-view 数据流管理
+  * flux -- action-dispatcher-store-view 数据流管理
   * 组件化开发 -- 页面功能组件为单位聚合前端资源
 * 其他
   * 设计模式 -- 工厂,单例,适配器,组合,解释器等
@@ -35,7 +35,7 @@
 * 构建工具
   * gulp -- 文件数据流解决方案
   * webpack -- app项目文件打包解决方案
-  * fis3 -- 超级全家桶，前端构建的大部分功能都有
+  * FIS3 -- 超级全家桶，前端构建的大部分功能都有
 * 编译工具
   * sass,less -- CSS 预处理语言
   * typescript -- js的超集 增加类型检查和显性接口 大大增加了js语言的抽象能力
