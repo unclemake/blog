@@ -3,23 +3,24 @@
 ## 核心技术
 * html
   * html5 -- 语义化,svg,canvas,localStorage
-* Css
-  * css2 -- 字体图标
+* css
+  * css2 -- 字体图标,sprite
   * css3 -- 动画,flexbox,rem,border-box模型
 * ECMAScript
   * es3
-  * es5 -- 大量新函数。
+  * es5 -- 大量新函数。 getter/setter
   * es2015(es6) -- 类,let,异步编程,module,set等
 
 ## 编程思想
 * 编程范式
   * OOP -- 面向对象编程
   * FP -- 面向函数编程
-  * FRP -- 反应式编程
+  * FRP -- 响应式编程
 * 架构模式
   * MVC -- 模型(model)－视图(view)－控制器(controller)
-  * MVVC -- Model-View-ViewMode
-  * 组件化开发 
+  * MVVM -- model-view-viewMode
+  * Flux -- action-dispatcher-store-view 数据流管理
+  * 组件化开发 -- 页面功能组件为单位聚合前端资源
 * 其他
   * 设计模式 -- 工厂,单例,适配器,组合,解释器等
   * 设计法则 -- 单一职责,里氏替换原则,依赖倒置原则,接口隔离原则,迪米特法则,开闭原则,组合/聚合复用原则
@@ -36,16 +37,16 @@
   * webpack -- app项目文件打包解决方案
   * fis3 -- 超级全家桶，前端构建的大部分功能都有
 * 编译工具
-  * scss,less -- CSS 预处理语言
+  * sass,less -- CSS 预处理语言
   * typescript -- js的超集 增加类型检查和显性接口 大大增加了js语言的抽象能力
-  * babel -- es2015转换 支持低版本浏览器es6的运行
+  * babel -- ES2015转换 支持低版本浏览器ES2015的运行
 * 版本管理
   * git -- 分布式版本控制系统 管理项目文件
   * svn -- 请淘汰
 * 自动化测试
   * mocha,jasmin,jest -- 单元测试
   * ui测试 -- 现阶段没有比较好的解决方案，都是一些残次品。c#有个自动化ui测试可以一试。
-* 部署 -- sdn,多域名,md5文件名
+* 部署 -- cdn,多域名,hash文件名
   
 
 ## 扩展技术
@@ -57,5 +58,6 @@
   * 构建工具 -- gulp fis3 webpack
   * 服务器 -- 性能被秒杀。还要很复杂的情况下才支持双核。网上传的高并发速度快。也只是异步IO导致。其他所有语言都支持异步IO只是默认是同步IO。优点：js程序员多社区活跃。
 * 浏览器特性和兼容 -- 达到一定的代码量才能掌握的东西。兼容程度和用户群挂钩。
-* pc手机端差异 -- 手机普及html5,es5,不兼容es2015。pc ie8占比大 谷歌内核支持es2015。
+* pc手机端差异 -- 手机普及html5,ES5,不兼容ES2015。pc ie8占比大 谷歌内核支持ES2015。
 * 安全性 -- https, 其他的一些解决方案都是只能提高破解难度或者做一些预警和统计并不能很好的防御
+* 性能 -- get强制缓存,请求合并,cdn,多域名,js缓存,合并渲染等
